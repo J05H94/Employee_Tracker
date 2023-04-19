@@ -217,7 +217,6 @@ async function updateEmployee(){
     let name = list[0][i].firstName + " " + list[0][i].lastName
     employeeArr[i] = {name, value: list[0][i].id};
   }
-  // console.log(employeeArr)
 
   let roleArr = [];
   sql = `SELECT title, id FROM roles;`
